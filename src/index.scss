@@ -1,4 +1,17 @@
 @import "../node_modules/mini.css/src/flavors/mini-default.scss";
+@import url('https://fonts.googleapis.com/css?family=Khand:400,700|Montserrat:400,400i,700&display=swap');
+
+html, * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Khand', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
 
 #root {
   min-height: 100vh;

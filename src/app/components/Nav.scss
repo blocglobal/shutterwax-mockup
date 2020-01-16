@@ -1,0 +1,27 @@
+.Nav {
+  background-color: transparent;
+  height: auto;
+  padding: 0 0 1rem;
+  border-bottom: 1px solid #fff;
+
+  nav {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+    a {
+      font-family: 'Khand', sans-serif;
+      color: #ccc;
+      font-size: 2rem;
+      transition: color 200ms ease-in-out;
+      padding: 0 .5rem;
+
+      &:hover, &:focus, &:active {
+        background-color: transparent;
+        color: #fff;
+      }
+    }
+  }
+}

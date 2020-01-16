@@ -1,0 +1,24 @@
+.Logo {
+  padding: 6rem 1rem 3rem;
+  text-align: center;
+  height: 12rem;
+  
+  a {
+    opacity: .4;
+    display: inline-block;
+    height: 100%;
+    transition: opacity 300ms ease-in-out;
+
+    &:hover, &:focus {
+      opacity: .8;
+    }
+  }
+
+  svg {
+    height: 100%;
+    width: auto;
+    path {
+      fill: #fff;
+    }
+  }
+}

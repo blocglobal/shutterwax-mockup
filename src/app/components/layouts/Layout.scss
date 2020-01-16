@@ -1,1 +1,17 @@
-.Layout {}
+.Layout {
+  .content {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 3rem 1rem 4rem;
+
+    @media (min-width: 75rem) {
+      padding: 3rem 0 4rem;
+    }
+
+    a {
+      &, &:visited {
+        color: #fff;
+      }
+    }
+  }
+}
