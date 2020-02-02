@@ -55,7 +55,13 @@ const About = props => {
       <h2>Site credits</h2>
       <ul className="list-unstyled">
         <li>Site designed by <strong>Mike Gregoire</strong> for <a href="https://defexperience.com" target="_blank" rel="noopener noreferrer">TDX</a></li>
-        <li>Background photo <a href="https://unsplash.com/photos/GqQNQwdDucc" target="_blank" rel="noopener noreferrer">“Road to Pic d'Anie, Lescun, France”</a> used courtesy of <strong>Simon Marsault</strong></li>
+        <li>Background photos:
+          <ul>
+            <li><a href="https://unsplash.com/photos/GqQNQwdDucc" target="_blank" rel="noopener noreferrer">“Road to Pic d'Anie, Lescun, France”</a> used courtesy of <strong>Simon Marsault</strong></li>
+            <li><a href="https://unsplash.com/photos/sCFxdZTlsFY" target="_blank" rel="noopener noreferrer">“A view of the Milky Way straight down the split in the road at Otter Point, located in Acadia National Park.”</a> used courtesy of <strong>Evan Leith</strong></li>
+            <li><a href="https://unsplash.com/photos/OJev0ModVw8" target="_blank" rel="noopener noreferrer">“Acadia National Park Pond, Bar Harbor, United States.”</a> used courtesy of <strong>Adrian Pelletier</strong></li>
+          </ul>
+        </li>
       </ul>
     </Layout>
   );
