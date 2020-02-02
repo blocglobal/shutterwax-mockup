@@ -1,0 +1,21 @@
+.MusicAvailable {
+  margin: 4rem 0 0;
+
+  a {
+    svg {
+      fill: rgba(255, 255, 255, .65);
+      width: 75%;
+      transition: all 200ms ease;
+  
+      @media (min-width: 37.5rem) {
+        width: 20rem;
+      }
+    }
+
+    &:hover, &:focus {
+      svg {
+        fill: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}

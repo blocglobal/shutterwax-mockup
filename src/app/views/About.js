@@ -22,10 +22,10 @@ const About = props => {
           </div>
         </div>
         <div
-          style={{backgroundImage: "url('/images/band/jessica.jpg')"}}
+          style={{backgroundImage: "url('/images/band/alt/jessica.jpg')"}}
         >
           <img 
-            src="/images/band/jessica.jpg" 
+            src="/images/band/alt/jessica.jpg" 
             alt="Jessica" 
             className="visually-hidden"
           />
@@ -34,10 +34,10 @@ const About = props => {
           </div>
         </div>
         <div
-          style={{backgroundImage: "url('/images/band/mark.jpg')"}}
+          style={{backgroundImage: "url('/images/band/alt/mark.jpg')"}}
         >
           <img 
-            src="/images/band/mark.jpg" 
+            src="/images/band/alt/mark.jpg" 
             alt="Mark" 
             className="visually-hidden"
           />
