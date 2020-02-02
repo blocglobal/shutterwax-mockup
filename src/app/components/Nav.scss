@@ -1,7 +1,7 @@
 .Nav {
   background-color: transparent;
   height: auto;
-  padding: 0 0 1rem;
+  padding: 0 0 .5rem;
   border-bottom: 1px solid #fff;
 
   nav {
@@ -12,9 +12,11 @@
     margin: 0;
     
     a {
-      font-family: 'Khand', sans-serif;
+      text-decoration: none;
+      font-weight: 300;
+      font-family: 'Work Sans', sans-serif;
       color: #ccc;
-      font-size: 2rem;
+      font-size: 1.75rem;
       transition: color 200ms ease-in-out;
       padding: 0 .5rem;
 
